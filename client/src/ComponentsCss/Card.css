@@ -1,0 +1,13 @@
+.cardArea{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .card{
+    margin: 10px;
+  }
+  .cardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
