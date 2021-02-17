@@ -67,6 +67,7 @@ export const MainPage = () => {
             .catch(err => alert(err))
     }
 
+    
     const getData = (page) => {
 
         let url = new URL('http://localhost:5000/')
